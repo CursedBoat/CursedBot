@@ -31,7 +31,8 @@ CursedBot mostly depends on the following crates:
 1. Install rust via [Rustup](https://rustup.rs/)
 2. Git clone the repository
 3. Rename ``Config.json.example`` to ``Config.json`` and configure it
-4. Add the ``DATABASE_URL = "sqlite://database.sqlite"`` environment variable
+4. Add the ``DATABASE_URL = "sqlite://database.sqlite"`` environment variable & rename ``database.example.sqlite`` to ``database.sqlite``
+5. Run ``cargo install sqlx-cli`` and run ``cargo sqlx migrate migrations`` & ``cargo sqlx prepare``
 
 ```sh
 cd CursedBot
