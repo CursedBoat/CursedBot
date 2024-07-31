@@ -25,7 +25,7 @@ pub async fn event_handler(
                     );
 
                     let insert_default_conf_sql = format!(
-                        "INSERT INTO config (guild_id, xotd_enable, roleconfig_enable) VALUES ($1, $2, $3)"
+                        "INSERT INTO config (guild_id, xotd_enable, roleconfig_userperm) VALUES ($1, $2, $3)"
                     ); 
 
                     let database = get_pool();
