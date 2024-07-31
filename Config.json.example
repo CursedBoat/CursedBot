@@ -1,0 +1,21 @@
+{
+    "client_config": {
+        "token": "TOKEN GOES HERE",
+        "app_id": "APPID",
+        "test_guild_id": 1234567890123456789
+    },
+    "bot_config": {
+        "prefix": "g!"
+    },
+    "color_config": {
+        "primary": 12928068,
+		"secondary": 2829634,
+		"blue": 5074170,
+		"pink": 15716323,
+		"green": 9158322
+    },
+    "spotify_config": {
+        "client_id": "CLIENT ID HERE",
+        "client_secret": "CLIENT SECRET HERE"
+    }
+}
