@@ -13,6 +13,8 @@ CursedBot is a cursed Discord bot.
 This bot was originally meant for a private server, so some of the commands (XOTD & Roles)
 might not make too much sense to use in your own server.
 
+NOTE: /memes command currently borked, will fix in a future update.
+
 ## Dependencies
 
 CursedBot mostly depends on the following crates:
@@ -32,13 +34,17 @@ CursedBot mostly depends on the following crates:
 2. Git clone the repository
 3. Rename ``Config.json.example`` to ``Config.json`` and configure it
 4. Add the ``DATABASE_URL = "sqlite://database.sqlite"`` environment variable & rename ``database.example.sqlite`` to ``database.sqlite``
-5. Run ``cargo install sqlx-cli`` and run ``cargo sqlx migrate migrations`` & ``cargo sqlx prepare``
 
 ```sh
+cargo install sqlx-cli
+cargo sqlx migrate migrations
+cargo sqlx prepare
+
 cd CursedBot
 cargo build --release
 cargo run
 ```
+NOTE: You might need to install ``libssl-dev`` (``openssl`` in arch) & ``pkg-config`` (``pkgconf`` in arch) for it to compile without errors.
 
 ## License
 
