@@ -1,9 +1,6 @@
 # CursedBot
-
-[![rust](https://i.ibb.co/p4bb52B/Rust-programming-language-black-logo.png)](https://www.rust-lang.org/)
 ![screenshot](https://i.ibb.co/VwYR8X2/sgjlksafgjsfgjksfgj.png)
 
-CursedBot is a cursed Discord bot.
 ## Features
 
 - Sqlite database integration
