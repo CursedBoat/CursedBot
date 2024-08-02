@@ -24,7 +24,7 @@ pub struct ClientConfig {
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct BotConfig {
     pub prefix: String,
-    pub decorator_role_index: u64,
+    pub axum_server: bool,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]

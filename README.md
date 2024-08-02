@@ -9,6 +9,7 @@ CursedBot is a cursed Discord bot.
 - Fast & stable
 - Examples for lots of Serenity & Poise features
 - Commented code for ease of development
+- KeepAlive Axum server if you want to run the bot on a free server host like Render
 
 This bot was originally meant for a private server, so some of the commands (XOTD & Roles)
 might not make too much sense to use in your own server.
@@ -20,6 +21,7 @@ NOTE: /memes command currently borked, will fix in a future update.
 CursedBot mostly depends on the following crates:
 
 - [Tokio](https://tokio.rs/) - Epic async rust runtime
+- [Axum](https://github.com/tokio-rs/axum) - Web app framework
 - [Serenity](https://github.com/serenity-rs/serenity) - Discord API wrapper
 - [Poise](https://github.com/serenity-rs/poise) - Advanced command framework for Serenity
 - [Roux](https://docs.rs/roux/) - Reddit client

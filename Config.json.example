@@ -5,7 +5,8 @@
         "test_guild_id": 1234567890123456789
     },
     "bot_config": {
-        "prefix": "g!"
+        "prefix": "g!",
+        "axum_server": false
     },
     "color_config": {
         "primary": 12928068,
