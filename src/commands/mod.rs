@@ -7,3 +7,6 @@ pub mod rolemanagement;
 pub mod test;
 pub mod config;
 pub mod util;
+
+// moderation
+pub mod moderation;

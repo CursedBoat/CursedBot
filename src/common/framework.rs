@@ -43,6 +43,11 @@ pub fn cursedbot_framework(config: Config) -> poise::Framework<Data, Error> {
         fun::random_song_recommendation::random_song_recommendation(),
         fun::memes::memes(),
         
+        // moderation
+        moderation::ban::ban(),
+        moderation::kick::kick(),
+        moderation::softban::softban(),
+        moderation::timeout::timeout(),
     ];
 
     let bot_config = config.clone();
