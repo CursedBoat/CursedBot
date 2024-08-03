@@ -12,8 +12,6 @@
 This bot was originally meant for a private server, so some of the commands (XOTD & Roles)
 might not make too much sense to use in your own server.
 
-NOTE: /memes command currently borked, will fix in a future update.
-
 ## Dependencies
 
 CursedBot mostly depends on the following crates:

@@ -41,7 +41,6 @@ pub fn cursedbot_framework(config: Config) -> poise::Framework<Data, Error> {
         // fun
         fun::dharmann::generate_dharmann_title(),
         fun::random_song_recommendation::random_song_recommendation(),
-        fun::memes::memes(),
         
         // moderation
         moderation::ban::ban(),
