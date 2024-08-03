@@ -24,8 +24,6 @@ lazy_static!(
 // initialize database pool
 static POOL: OnceCell<Arc<SqlitePool>> = OnceCell::new();
 
-
-
 #[tokio::main]
 async fn main() {
 
@@ -54,6 +52,7 @@ async fn main() {
                 axum_server().await
             });
 
+            // handle exits
             tokio::select! {
                 _ = serenity_future => { println!("Serenity bot has terminated."); }
                 _ = axum_future => { println!("Axum server has terminated."); }
